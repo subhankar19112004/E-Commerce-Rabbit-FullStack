@@ -8,7 +8,7 @@ import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const [navDrawerOpen, setNavDrawerOpen] = useState(true);
+  const [navDrawerOpen, setNavDrawerOpen] = useState(false);
 
   const toogleNavDrawer = () => {
     setNavDrawerOpen(!navDrawerOpen);
@@ -86,7 +86,7 @@ const Navbar = () => {
         </div>
         <div className="p-4">
             <h2 className=" text-xl font-sans font-semibold mb-4">Menu</h2>
-            <nav className="">
+            <nav className=" space-y-4">
                 <Link to="#" onClick={toogleNavDrawer} className=" block  text-gray-700 hover:text-black">
                     Men
                 </Link>
