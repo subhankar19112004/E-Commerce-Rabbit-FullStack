@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight leading-tight mb-6">
             Vacation Sale
             <span className="block text-5xl sm:text-6xl md:text-7xl lg:text-8xl mt-4 text-red-600">
-              Up to <span className="text-6xl text-red-700">50% OFF</span>
+              <span className="text-7xl text-yellow-300">U</span>p to <span className="text-6xl text-red-700">50% OFF</span>
             </span>
           </h1>
 
