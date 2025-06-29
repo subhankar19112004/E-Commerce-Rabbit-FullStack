@@ -196,7 +196,7 @@ const ProductDeatails = () => {
                         <div className='mt-10 text-gray-700'>
                             <h3 className=' text-xl font-bold mb-4'>Characteristics:</h3>
                             <table className="w-full text-left text-sm text-gray-600">
-                                <tbody>a
+                                <tbody>
                                     <tr>
                                         <td className="py-1">Brand:</td>
                                         <td className="py-1">{selectedProduct.brand}</td>
